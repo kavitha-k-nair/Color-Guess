@@ -37,6 +37,7 @@ def guess_game():
         input_screen.screen.bgcolor("black")
         turtle.title("COLOR GUESS")
         turtle.pen(pencolor=None)
+        turtle.hideturtle()
  
         randvalue=random.choice(colors)
 
